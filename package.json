@@ -1,0 +1,16 @@
+{
+  "name": "socialmedia",
+  "version": "1.0.0",
+  "description": "A small social media buildt with Node js, GraphQL, and React js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kusjay",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.9.5",
+    "graphql": "^14.5.8",
+    "mongoose": "^5.7.3"
+  }
+}
