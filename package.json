@@ -1,16 +1,20 @@
 {
-  "name": "socialmedia",
-  "version": "1.0.0",
-  "description": "A small social media buildt with Node js, GraphQL, and React js",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Kusjay",
-  "license": "MIT",
-  "dependencies": {
-    "apollo-server": "^2.9.5",
-    "graphql": "^14.5.8",
-    "mongoose": "^5.7.3"
-  }
+	"name": "socialmedia",
+	"version": "1.0.0",
+	"description": "A CRUD api built with Node js, GraphQL",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"author": "Kusjay",
+	"license": "MIT",
+	"dependencies": {
+		"apollo-server": "^2.9.5",
+		"bcryptjs": "^2.4.3",
+		"graphql": "^14.5.8",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.7.3",
+		"nodemon": "^1.19.3"
+	}
 }
