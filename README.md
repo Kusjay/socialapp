@@ -1,3 +1,3 @@
 # graphQL-api
 
-A social media app built with Node js, GraphQL, and React js
+A social media app API built with Node js and GraphQL
